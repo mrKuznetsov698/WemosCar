@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="https://img.icons8.com/ios/344/pixel-cat.png">
+        <title>Wemos control</title>
+        <style>
+            .body{
+                background-color: black;
+                font-size: 16px;
+                font-family: Calibri;
+                background-image: url("https://img1.goodfon.ru/wallpaper/nbig/7/cb/abstract-blue-black.jpg");
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+
+            .label{
+                color: white;
+            }
+
+            .down_label{
+                color: rgb(4, 60, 246);
+                font-style: italic;
+            }
+        </style>
+        <script src="index.js"></script>
+    </head>
+    <body class="body" onload="init()">
+        <center>
+            <h1 class="label">It's work</h1>
+            <h2 class="label" id="dir"></h2>
+            <h2 class="label" id="spd"></h2>
+            <h2 class="down_label" style=>Powered by esp8266</h2>
+        </center>
+    </body>
+</html>
